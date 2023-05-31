@@ -77,7 +77,7 @@ To get a local copy up and running, follow these steps.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **[Implemented_third_party_endpoints_for_sending_and_data]**
+- **[Create_endpoints_both_for_sending_and_receiving_data]**
 - **[Implement_routing_with_react_router]**
 - **[Implement_authentications]**
 
