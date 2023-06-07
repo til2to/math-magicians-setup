@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 
-import Title from '../Title';
 import './calculator.css';
 import calculate from '../../logic/calculate';
 
@@ -21,10 +20,6 @@ const Calculator = () => {
   return (
     <>
       {' '}
-      { /* child component */}
-      <div className="title-container">
-        <Title className="calculator-title" />
-      </div>
       { /* calculator ui */ }
       <div className="calculator">
         <div className="buttons">
