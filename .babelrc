@@ -1,6 +1,12 @@
 {
+  // "env": {
+  //   "test": {
+  //     "plugins": ["@babel/plugin-transform-modules-commonjs"]
+  //   }
+  // },
   "presets": [
       "@babel/preset-react"
   ],
   "plugins": ["@babel/plugin-syntax-jsx"]
 }
+// bro do you have the testing for the operator.js and the calculate.js for module 3?
