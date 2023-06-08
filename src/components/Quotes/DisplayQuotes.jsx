@@ -42,8 +42,13 @@ const DisplayQuotes = () => {
     <div className="quotes">
       {quoteData.length > 0 && (
         <div className="each-quote center">
-          <div className="quote-quote">{quoteData[0].quote}</div>
-          <div className="quote-author">{quoteData[0].author}</div>
+          <div className="quote-quote">
+            {quoteData[0].quote}
+            {' '}
+            -
+            {' '}
+            {quoteData[0].author}
+          </div>
         </div>
       )}
     </div>

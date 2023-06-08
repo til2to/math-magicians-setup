@@ -3,7 +3,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
 }
 
 .spin {
@@ -23,18 +22,17 @@
 }
 
 .each-quote {
-  max-width: 400px;
   margin: 0 auto;
   padding: 20px;
-  border: 1px solid #ccc;
   border-radius: 4px;
-  text-align: center;
 }
 
 .quote-quote {
   font-size: 18px;
   font-weight: 500;
   margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
 }
 
 .quote-author {
